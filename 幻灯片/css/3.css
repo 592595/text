@@ -1,0 +1,31 @@
+body{
+	background: url(../img/5304286e50b88.jpg);
+ 	font-family: "华文楷体";
+ 	font-size: 24px;
+  text-align: center;
+ 	
+ }
+ 
+
+h1{
+	font-size:24px ;
+	font-weight: 800;
+	margin-top: 5px;
+    display:block;
+    text-decoration: none;
+}
+h1:hover{
+	color: coral;
+	text-decoration: underline;
+	transform: matrix(0.866,0.5,0.5,-0.866,10,10);
+    -webkit-transform: matrix(0.866,0.5,0.5,-0.866,10,10);
+}
+input{
+	background-color: #FF7F50;
+	font-size: 24px;
+	opacity: 0.5;
+}
+textarea{
+background-color: #FF9900;	
+opacity: 0.5;
+}

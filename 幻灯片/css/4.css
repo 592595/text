@@ -1,0 +1,139 @@
+body{
+	background:url(../img/012406qjwbtt1wblnaaqtf.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font: "新宋体";
+	font-weight: 100;
+	background-size: 1980px 1080px;
+	text-align: center;
+	
+	 
+}
+#num1{
+	background: coral;
+	font: "楷体";
+	font-style: inherit;
+	border: black 1px solid;
+	width: 200px;
+   height: 50px;
+   font-size: xx-large;
+   opacity: 0.5;
+   border-radius: 10px;
+   border: 10px solid:salmon;
+}
+
+
+#num1:hover{
+	 border-radius: 10px;
+	background: cadetblue;
+	border: hidden;
+	width: 200px;
+   height: 50px;
+   font-size: xx-large;
+   opacity: 0.5;
+   transform: translate(10px ,5px);
+	-ms-transform: translate(10px,5px );
+}
+#result{ border-radius: 10px;
+	width: 200px;
+	 opacity: 0.5;
+   height: 50px;
+   font-size: xx-large;
+   background: cyan;
+   
+}
+#num2{ border-radius: 10px;
+	background: chartreuse;
+	border: black 1px solid;
+	width: 200px;
+   height: 50px;
+    opacity: 0.5;
+   font-size: xx-large;
+}
+#num2:hover{ border-radius: 10px;
+	background: darkgreen;
+	border: hidden;
+	width: 200px;
+   height: 50px;
+    opacity: 0.5;
+   font-size: xx-large;
+   transform: translate(10px ,5px);
+	-ms-transform: translate(10px,5px );
+}
+#addbutton{ border-radius: 10px;
+   background: crimson;
+   width: 75px;
+   height: 50px;
+   font-size: xx-large;
+    opacity: 0.5;
+}
+#addbutton:hover{ border-radius: 10px;
+	background: darkgreen;
+   width: 75px;
+   height: 50px;
+   font-size: xx-large;
+    opacity: 0.5;
+    transform: translate(10px ,5px);
+	-ms-transform: translate(10px,5px );
+	
+}
+#divbutton{ border-radius: 10px;
+	background: gold;
+	width: 75px;
+   height: 50px;
+   font-size: xx-large;
+    opacity: 0.5;
+}
+#divbutton:hover{ border-radius: 10px;
+	background: chocolate;
+   width: 75px;
+   height: 50px;
+   font-size: xx-large;
+    opacity: 0.5;
+    transform: translate(10px ,5px);
+	-ms-transform: translate(10px,5px );
+}
+#mulnutton{ border-radius: 10px;
+	width: 75px;
+   height: 50px;
+   font-size: xx-large;
+   background: aquamarine;
+    opacity: 0.5;
+}
+#mulnutton:hover{ border-radius: 10px;
+	background: crimson;
+   width: 75px;
+   height: 50px;
+   font-size: xx-large;
+   background:chocolate;
+    opacity: 0.5;
+    transform: translate(10px ,5px);
+	-ms-transform: translate(10px,5px );
+}
+#subbutton{ border-radius: 10px;
+	width: 75px;
+	background: darkorchid;
+   height: 50px;
+    opacity: 0.5;
+   font-size: xx-large;
+}
+#subbutton:hover{ border-radius: 10px;
+	background: crimson;
+   width: 75px;
+   height: 50px;
+    opacity: 0.5;
+   font-size: xx-large;
+   background: coral;
+   transform: translate(10px ,5px);
+	-ms-transform: translate(10px,5px );
+}
+h1{
+	font-family: 华文行楷;
+	color: #DC143C;
+	display:block;
+    text-decoration: none;
+}
+h1:hover{
+	transform: matrix(0.866,0.5,0.5,-0.866,10,10);
+    -webkit-transform: matrix(0.866,0.5,0.5,-0.866,10,10);
+}

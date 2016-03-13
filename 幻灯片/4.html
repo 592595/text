@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/4.css" type="text/css" />
+		<script >
+		function compute (op) {
+			
+		
+			var num1=0;
+			var num2=0;
+			num1=parseFloat(document.myform.num1.value);
+			num2=parseFloat(document.myform.num2.value);
+		    if(op=='+')
+		    document.myform.result.value=num1+num2;
+		     if(op=='-')
+		    document.myform.result.value=num1-num2;
+		     if(op=='*')
+		    document.myform.result.value=num1*num2;
+		     if(op=='/'&&num2!=0)
+		    document.myform.result.value=num1/num2;
+		    
+		}	
+		</script>
+	</head>
+	<body>
+		<h1>这是我们前端的计算器</h1>
+		<br /><br /><br /><br /><br /><br />
+
+		<font face="华文行楷" size="10"color="gold">
+		
+	<form action="" method="post" name="myform" id="myform" style="position: absolute; left: 500px;">
+		<p>
+			第一行数：
+			<input name="num1" type="text" id="num1" size="25" />
+			<br />
+			第二行数：
+			<input name="num2" type="text" id="num2" size="25" />
+		</p>
+		<p >
+			运算符号：
+			<input name="addbutton" type="button" id="addbutton" value="+" onclick="compute('+')" />
+			<input type="button" name="subbutton" id="subbutton" value="-" onclick="compute('-')" />
+			<input type="button" name="mulnutton" id="mulnutton" value="x" onclick="compute('*')" />
+			<input type="button" name="divbutton" id="divbutton" value="/" onclick="compute('/')" />
+			
+		</p>
+		<p >计算结果：
+		<input type="text" name="result" id="result" size="25" />
+		</p>
+	
+	</form>
+	</font>
+		
+	</body>
+</html>
